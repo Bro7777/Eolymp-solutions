@@ -10,10 +10,10 @@ int main() {
     long long n;
     long long k=1000000000000000000;
     int m1=log2(k);
-    int m2=log2(k)/log2(3);
+    int m2=37;
     vector<long long>l;
     long long eded=1;
-    for(int i=0;i<=m1;i++){
+    for(int i=0;i<=m2;i++){
         if(i!=0) eded=eded*3;
         long long x=1;
         while(eded*x<=k){
